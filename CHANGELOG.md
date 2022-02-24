@@ -4,6 +4,28 @@ Changelog
 This change log is managed by `admin/cmds/update-versions` but may be manually updated.
 
 
+ethers/v5.5.5 (2022-02-24 15:32)
+--------------------------------
+
+  - remove default referrer "client" is not a valid value for the referrer field. This causes errors in certain contexts, like when using the library inside a Cloudflare worker. ([e9f9332](https://github.com/ethers-io/ethers.js/commit/e9f93326143c3b9867a8693b192984a44922b677))
+  - docs: added more searchable wording. ([7b134bd](https://github.com/ethers-io/ethers.js/commit/7b134bd5c9f07f60b2e38b110268042e10f68174))
+  - docs: added BaseProvider. ([#2625](https://github.com/ethers-io/ethers.js/issues/2625); [e175448](https://github.com/ethers-io/ethers.js/commit/e1754483809b45dcf948b1d91c91517bd5387e42))
+  - docs: more explicitly describe the id function. ([#2115](https://github.com/ethers-io/ethers.js/issues/2115); [1d419b5](https://github.com/ethers-io/ethers.js/commit/1d419b5829976b9c80c299e456e5ce0a5e8f63e1))
+  - docs: updated API provider supported networks. ([#2242](https://github.com/ethers-io/ethers.js/issues/2242); [95b2c72](https://github.com/ethers-io/ethers.js/commit/95b2c72b1200c32616a99697fb87072843ff2d28))
+  - docs: fixed typos. ([#2289](https://github.com/ethers-io/ethers.js/issues/2289); [7b0d02d](https://github.com/ethers-io/ethers.js/commit/7b0d02d30e83a1c59d42ee169b3b940b33446c4d))
+  - docs: added effectiveGasPrice to receipts. ([#2311](https://github.com/ethers-io/ethers.js/issues/2311); [0c72e0f](https://github.com/ethers-io/ethers.js/commit/0c72e0f1fdd0ea9cfdfbe2bd2e3167e1ce1141da))
+  - docs: fixed typs. ([#2354](https://github.com/ethers-io/ethers.js/issues/2354); [315ecfd](https://github.com/ethers-io/ethers.js/commit/315ecfd19e6148d6c328bd3f651b418477d0eac2))
+  - docs: fixed import typo. ([#2397](https://github.com/ethers-io/ethers.js/issues/2397); [c61f3bc](https://github.com/ethers-io/ethers.js/commit/c61f3bc2a070149ca219f76241ea9901e1b7fcb9))
+  - docs: fixed typos. ([#2400](https://github.com/ethers-io/ethers.js/issues/2400); [1be0961](https://github.com/ethers-io/ethers.js/commit/1be096130cfb4ddc1e4b03ee8345883ec78aea04))
+  - docs: fixed typos. ([#2407](https://github.com/ethers-io/ethers.js/issues/2407); [9eed04a](https://github.com/ethers-io/ethers.js/commit/9eed04a6d5e6fac2f4f77e554e49d64e14fb276e))
+  - docs: fix typos. ([#2430](https://github.com/ethers-io/ethers.js/issues/2430); [82d6dcb](https://github.com/ethers-io/ethers.js/commit/82d6dcbdde95004e041f9ff353de37af5e557d2e))
+  - docs: add MetaMask request info. ([#2535](https://github.com/ethers-io/ethers.js/issues/2535); [4935f93](https://github.com/ethers-io/ethers.js/commit/4935f93015d601c5097abced940d99727d4ff8d5))
+  - docs: fixed typos. ([#2522](https://github.com/ethers-io/ethers.js/issues/2522); [3df0e06](https://github.com/ethers-io/ethers.js/commit/3df0e06c64bf5a2f9745525d8adc51751c2e2d30))
+  - docs: fixed typos. ([#2531](https://github.com/ethers-io/ethers.js/issues/2531); [18d8d1f](https://github.com/ethers-io/ethers.js/commit/18d8d1f34d87317d4d173153b6e55dd073043e3f))
+  - docs: fixed typos. ([#2614](https://github.com/ethers-io/ethers.js/issues/2614); [7b80ba2](https://github.com/ethers-io/ethers.js/commit/7b80ba20fee68bc4eae8ed1653f8ff9ff2acf7c1))
+  - docs: added getAvatar. ([#2591](https://github.com/ethers-io/ethers.js/issues/2591); [f635af2](https://github.com/ethers-io/ethers.js/commit/f635af2684a619b5c5d0269c0968b6a566547ff6))
+  - docs: added jsonRpcProvider.connection ([#2611](https://github.com/ethers-io/ethers.js/issues/2611); [813fcef](https://github.com/ethers-io/ethers.js/commit/813fcef4adff69783c094c879a425c6f300d1c91))
+
 ethers/v5.5.4 (2022-01-24 16:45)
 --------------------------------
 

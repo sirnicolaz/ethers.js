@@ -24,7 +24,6 @@ export function getUrl(href, options) {
             request.cache = "no-cache"; // *default, no-cache, reload, force-cache, only-if-cached
             request.credentials = "same-origin"; // include, *same-origin, omit
             request.redirect = "follow"; // manual, *follow, error
-            request.referrer = "client"; // no-referrer, *client
         }
         ;
         const response = yield fetch(href, request);

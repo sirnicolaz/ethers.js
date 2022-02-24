@@ -27,10 +27,10 @@
     "@ethersproject/signing-key": "5.5.0",
     "@ethersproject/solidity": "5.5.0",
     "@ethersproject/strings": "5.5.0",
-    "@ethersproject/transactions": "5.5.0",
+    "@ethersproject/transactions": "5.5.1",
     "@ethersproject/units": "5.5.0",
     "@ethersproject/wallet": "5.5.0",
-    "@ethersproject/web": "5.5.1",
+    "@ethersproject/web": "5.5.2",
     "@ethersproject/wordlists": "5.5.0"
   },
   "description": "Umbrella package for most common Ethers libraries.",
@@ -62,7 +62,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "sideEffects": false,
-  "tarballHash": "0x5524e230bf0cb7cfc55f49f6684ca222fadc45c9efd38da9f8524174798c0ac2",
+  "tarballHash": "0x73b5895708849cf18cdf9e0d177d93d0d491cb285d052e7da1e809ce1627b7ae",
   "types": "./lib/index.d.ts",
-  "version": "5.5.4"
+  "version": "5.5.5"
 }

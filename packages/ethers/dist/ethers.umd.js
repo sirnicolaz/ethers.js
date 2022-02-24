@@ -14494,7 +14494,7 @@
 	"use strict";
 	Object.defineProperty(exports, "__esModule", { value: true });
 	exports.version = void 0;
-	exports.version = "transactions/5.5.0";
+	exports.version = "transactions/5.5.1";
 
 	});
 
@@ -19519,7 +19519,7 @@
 	"use strict";
 	Object.defineProperty(exports, "__esModule", { value: true });
 	exports.version = void 0;
-	exports.version = "web/5.5.1";
+	exports.version = "web/5.5.2";
 
 	});
 
@@ -19585,7 +19585,6 @@
 	                        request.cache = "no-cache"; // *default, no-cache, reload, force-cache, only-if-cached
 	                        request.credentials = "same-origin"; // include, *same-origin, omit
 	                        request.redirect = "follow"; // manual, *follow, error
-	                        request.referrer = "client"; // no-referrer, *client
 	                    }
 	                    ;
 	                    return [4 /*yield*/, fetch(href, request)];
@@ -26904,7 +26903,7 @@
 	"use strict";
 	Object.defineProperty(exports, "__esModule", { value: true });
 	exports.version = void 0;
-	exports.version = "ethers/5.5.4";
+	exports.version = "ethers/5.5.5";
 
 	});
 

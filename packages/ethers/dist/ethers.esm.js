@@ -13286,7 +13286,7 @@ function computePublicKey(key, compressed) {
     return logger$g.throwArgumentError("invalid public or private key", "key", "[REDACTED]");
 }
 
-const version$c = "transactions/5.5.0";
+const version$c = "transactions/5.5.1";
 
 "use strict";
 const logger$h = new Logger(version$c);
@@ -17520,7 +17520,7 @@ var index$2 = /*#__PURE__*/Object.freeze({
 	encode: encode$1
 });
 
-const version$l = "web/5.5.1";
+const version$l = "web/5.5.2";
 
 "use strict";
 var __awaiter$7 = (window && window.__awaiter) || function (thisArg, _arguments, P, generator) {
@@ -17547,7 +17547,6 @@ function getUrl(href, options) {
             request.cache = "no-cache"; // *default, no-cache, reload, force-cache, only-if-cached
             request.credentials = "same-origin"; // include, *same-origin, omit
             request.redirect = "follow"; // manual, *follow, error
-            request.referrer = "client"; // no-referrer, *client
         }
         ;
         const response = yield fetch(href, request);
@@ -23197,7 +23196,7 @@ var utils$1 = /*#__PURE__*/Object.freeze({
 	Indexed: Indexed
 });
 
-const version$p = "ethers/5.5.4";
+const version$p = "ethers/5.5.5";
 
 "use strict";
 const logger$I = new Logger(version$p);
